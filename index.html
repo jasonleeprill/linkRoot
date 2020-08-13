@@ -4,48 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This will be a great way to connect the Prill Family.">
-    <title>Prill.Network</title>
-    <script>
-        setTimeout(wakeUpUser, 24000);
-        function wakeUpUser() {
-            alert("Are we going to stare at this boring page forever?  I'd love to hear your feedback, lets connect! jasonlee@prill.network              alternative address: email@jasonleeprill.net");
+    <title>jquery crash course | Selectors</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        body{
+            font-size: 17px;
+            font-family: arial;
+            background: lightslategrey;
+            line-height: 1.5em;
+
         }
-    </script>
+        header{
+            background:lightsteelblue;
+            color:#fff
+            padding:20px;
+            text-align: center;
+            border-bottom: 4px #000 solid;
+            margin-bottom: 10px;
+
+        }
+        #container{
+            width:90%;
+            margin:auto;
+            padding:10px;
+
+
+        }
+    </style>
 </head>
-<body style="background-color:lightsteelblue;">
-    <h1 style="color:orangered;">Prill.Network        <em>( "betta" v20.04 )</em></h1>
-    <hr />
-    <hr />
-    <hr />
-    <hr />
-    <hr />
-    <p>
-        <h6 style="background-color:royalblue;"><em>"Is anybody out there?"</em></h6>
-        <hr/>
-        <p style="color:red; background-color:blue;">So, Mom texts the other day and says, "Hi! Son, what does IDK, LV, & TTYL mean?"
-        So, I text back, "I Don't Know, Love You, & Talk to You Later."  Then Mom texts back, "It's ok, don't worry about it.  I'll ask your
-        sister, love you too."
-    </p>
-    <hr />
-    <h6 style="color:red; background-color:blue;"><em>"oops... that could have been emberrasing," ~ "Sorry, Mom..."</em></h6>
-    <hr />
-    <hr />
-    <hr />
+<body>
+    <header>
+        <h1 style="color:orangered;"><em>Prill.Network  </em>       ~     <em> "betta v20.04" </em></h1>
+    </header>
+    <div id="container">
+
+    </div>
+
+    <script>
+
+    </script>
+<hr />
+<hr />
+<hr />
+<hr />
+<hr />
+<p>
+    <h6 style="background-color:royalblue;"><em>"Is anybody out there?"</em></h6>
+    <hr/>
+    <p style="color:red; background-color:royalblue;">So, Mom texts the other day and says, "Hi! Son, what does IDK, LV, & TTYL mean?"
+    So, I text back, "I Don't Know, Love You, & Talk to You Later."  Then Mom texts back, "It's ok, don't worry about it.  I'll ask your
+    sister, love you too."
+</p>
+<hr />
+<h6 style="color:red; background-color:royalblue;"><em>"oops... that could have been emberrasing," ~ "Sorry, Mom..."</em></h6>
+<hr />
+<hr />
+<hr />
 </p>
 
-    <div class="featured-item padding: 1.5rem; margin-bottom: 1rem; text-align: center; border: 1px solid blueviolet;">
+<div class="featured-item padding: 1.5rem; margin-bottom: 1rem; text-align: center; border: 1px solid blueviolet;">
 
-        <h2 style="color:orangered; font-family: sans-serif;">Credits Roll@</h2>
-        <p style="color:orangered;"><em>dev1sdb:/home/admin#</em></p>
-        <h3 style="color:rgba(9, 9, 187, 0.623)">jasonlee@prill.network</h3>
+    <h6 style="color:black; font-family: sans-serif;">~Small Admin Roll#</h6>
+    <h3 style="color:rgba(9, 9, 187, 0.623)"><em>jason@prill.network</em></h3>
+</div>
+<ul>
+ <li style="color:black;">Michigan</li>
+ <li style="color:black;">USA</li>
+</ul>
+<div class="container">
+<div class="jumbotron">
+    <hr />
+    <h1 style="color:rgba(9, 9, 187, 0.623);"></h1style>Come Join Our Network! (coming soon)</h1>
+    <hr />
+    <button id="btn1"; style="color:rgba(9, 9, 187, 0.623);">Family</button>
+    <button id="btn2"; style="color:rgba(9, 9, 187, 0.623);">Friends</button>
+    <button id="btn3"; style="color:rgba(9, 9, 187, 0.623);">Partners</button>
+    <button id="btn4"; style="color:rgba(9, 9, 187, 0.623);">Associates</button>
+</div>
+
+<div class="row">
+    <div class="col-xs-3">
+        <div id="panel1" class="panel panel-primary">
+            <div class="panel-heading">
+                Family
+            </div>
+            <div class="panel-body"; style="color:rgba(9, 9, 187, 0.623);">~/#
+            </div>
+        </div>
     </div>
- <ul>
-     <li style="color:rgba(9, 9, 187, 0.623);">Michigan</li>
-     <li style="color:rgba(9, 9, 187, 0.623);">USA</li>
- </ul>
+
+    <div class="row">
+        <div class="col-xs-3">
+            <div id="panel2" class="panel panel-primary">
+                <div class="panel-heading">
+                    Friends
+                </div>
+                <div class="panel-body"; style="color:rgba(9, 9, 187, 0.623);">~/$
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-3">
+                <div id="panel3" class="panel panel-primary">
+                    <div class="panel-heading">
+                        Partners
+                    </div>
+                    <div class="panel-body"; style="color:rgba(9, 9, 187, 0.623);">"$"
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-3">
+                    <div id="panel4" class="panel panel-primary">
+                        <div class="panel-heading">
+                            Associates
+                        </div>
+                        <div class="panel-body"; style="color:red;">"Read Only"
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
 
 
-    
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<hr />
+<h6><em>to be continued...</em></h6>
 </body>
 </html>
